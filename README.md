@@ -43,13 +43,6 @@ This prevents low-reward (bad) episodes from negatively affecting the learned po
 
 ---
 
-## Training Results
-
-- Training rewards per 100 episodes are plotted in `training_rewards.png`.  
-- The trained Q-table is saved as `q_matrix.npy` — can be used directly if retraining is not needed.
-
----
-
 ## Files
 
 - `qlearning.py` → Q-learning class and functions  
