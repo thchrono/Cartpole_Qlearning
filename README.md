@@ -21,7 +21,7 @@ This prevents low-reward (bad) episodes from negatively affecting the learned po
 - Start with `reward_threshold = 5`.
 - After each episode:
   - If `total_reward > reward_threshold`, run the **Q-learning update over all episode transitions**, then decay epsilon.
-  - Every 200 episodes, if rewards are still low (`<= 450`), **raise the threshold by +5**.
+  - Every 200 episodes, if reward threshold is below `450`, **raise the threshold by +5**.
   - After 5000 episodes, reduce learning rate: `alpha = 0.05`.
 
 ---
