@@ -56,6 +56,7 @@ This prevents low-reward (bad) episodes from negatively affecting the learned po
 - `qlearning.py` → Q-learning class and functions
 - `agent.py` → Execution script
 - `qlearning_cartpole.gif` → GIF showing 8 separate episodes of the trained agent
+- `training_rewards.png` → Plot of average reward progression over training  
 - `q_matrix.npy` → Saved Q-table (pretrained, can be used without retraining)  
 - `requirements.txt` → Python dependencies
 ---
