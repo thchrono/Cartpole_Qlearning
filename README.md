@@ -36,6 +36,14 @@ This prevents low-reward (bad) episodes from negatively affecting the learned po
 
 ---
 
+## Training Performance
+
+![Training Rewards](training_rewards.png)  
+
+> The plot shows the **average total reward per 100 episodes**, smoothed to visualize learning progress.
+
+---
+
 ## Requirements
 
 - See `requirements.txt` for Python package dependencies.  
@@ -45,8 +53,8 @@ This prevents low-reward (bad) episodes from negatively affecting the learned po
 
 ## Files
 
-- `qlearning.py` → Q-learning class and functions  
-- `agent.py` → Training loop and agent execution  
+- `qlearning.py` → Q-learning class and functions
+- `agent.py` → Execution script
 - `qlearning_cartpole.gif` → GIF showing 8 separate episodes of the trained agent
 - `q_matrix.npy` → Saved Q-table (pretrained, can be used without retraining)  
 - `requirements.txt` → Python dependencies
